@@ -98,6 +98,9 @@ width: 100%;
 height: auto;
 margin-top: 1rem;
 }
+.building-img{
+    text-align: center;
+}
 #building-img{
     width: 100%;
     height: auto;
@@ -215,6 +218,16 @@ text-align: center;
 .map{
 text-align: center;
 }
+/* contact Page styles */
+.icon-img{
+    text-align: center;
+}
+#icon-img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
 /* contact form */
 .form{
 border: 1px solid black;
@@ -227,6 +240,9 @@ width: auto;
 .form input{
 display: block;
 text-align: center;
+}
+input{
+    text-align: center;
 }
 
 @media only screen and (min-width:768px){
