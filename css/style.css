@@ -244,6 +244,10 @@ text-align: center;
 input{
     text-align: center;
 }
+/* OUR LOCATION  */
+.location-list{
+    text-align: left;
+}
 
 @media only screen and (min-width:768px){
 /* nav is now being styled for horizontal appearance */
@@ -276,4 +280,9 @@ text-align: left;
 width: 10%;
 height: auto;
 }
+}
+@media only screen and (min-width:992px){
+    .kids{
+        
+    }
 }
