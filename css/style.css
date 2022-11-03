@@ -106,6 +106,39 @@ margin-top: 1rem;
     height: auto;
     margin-top: 1rem;
 }
+.break-img{
+    text-align: center;
+}
+#break-img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.bowling-img{
+    text-align: center;
+}
+#bowling-img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.fitness-img{
+    text-align: center;
+}
+#fitness-img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.climbing-img{
+    text-align: center;
+}
+#climbing-img{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+/* Images styles ABOVE */
 
 /* Sponsors images div styles and image styles */
 .student-ass{
