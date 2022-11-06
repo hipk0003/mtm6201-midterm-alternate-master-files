@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4ee54b1a4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Home Page</title>
   </head>
   <body>
@@ -25,15 +29,19 @@
         </ul>
       </nav>
     </header>
-    <div class="contact-wrapper">
+    <div class="hero-wrapper">
       <h1>We Want to Hear From You</h1>
-      <p>
+      <p class="hero-text">
         If you have an idea for an activity that you think you and your fellow
         students would love to participate in that we are not already offering,
         we want to know about it!
       </p>
-      <div>
+      <div class="contact-icons">
+        <img src="/images/contact-img.svg" alt="icons" class="contact-img" />
+      </div>
+      <div class="contact-form">
         <form class="form" action="action_page.php">
+          <h1>Contact Us</h1>
           <label for="fname">First Name</label>
           <input
             type="text"
@@ -54,27 +62,32 @@
             id="subject"
             name="subject"
             placeholder="Write something.."
-            style="height: 200px"
+            rows="3"
+            cols="50"
           ></textarea>
-
-          <input type="submit" value="Submit" />
+          <button type="submit" class="submit">Submit</button>
         </form>
-      </div>
-      <div class="icon-img">
-        <img src="/images/contact-img.svg" alt="icons" id="icon-img" />
       </div>
       <h1>Our Location</h1>
       <h2>Algonquin College Students' Association</h2>
       <ul class="location-list">
-        <li>Monday to Friday - 8:30am to 6:00pm</li>
-        <li>1385 Woodroffe Avenue (E114) Ottawa, Ontario K2G 1V8</li>
-        <li>(613) 727-4723 x7711</li>
+        <li>
+          <p class="p-description">Monday to Friday - 8:30am to 6:00pm</p>
+        </li>
+        <li>
+          <p class="p-description">
+            1385 Woodroffe Avenue (E114) Ottawa, Ontario K2G 1V8
+          </p>
+        </li>
+        <li>
+          <p class="p-description">(613) 727-4723 x7711</p>
+        </li>
       </ul>
     </div>
     <div class="map">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d717641.0415007669!2d-76.95333881843464!3d45.36323724612353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1667517090578!5m2!1sen!2sca"
-        width="600"
+        width="300"
         height="450"
         style="border: 0"
         allowfullscreen=""
@@ -82,5 +95,20 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
+    <footer>
+      <p class="follow">Follow Us</p>
+      <div class="footer-icons">
+        <div class="footer-social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="myBtn">
+          <i class="fa-solid fa-circle-arrow-up"></i>
+          <p class="myBtn-p">Back to top</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
