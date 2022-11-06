@@ -397,6 +397,10 @@ display: block;
         margin: 0 3rem;
     }
     /* APPLYING MARGINS TO H2 H3 P */
+    .hero-text-p{
+        margin: 2rem;
+        font-size: 1.5rem;
+    }
     h1{
         font-size: 3rem;
         margin: 3rem;
@@ -419,9 +423,6 @@ display: block;
 
     }
 
-    .kids-img{
-        
-    }
     .simon-header{
         font-size: 2rem;
     }
@@ -465,8 +466,15 @@ display: block;
 
 
     /************************ About page ******************************/
+        .building{
+            display: flex;
+            justify-content: center;
+        }
+        .building-img{
+            width: 70%;
+            padding-bottom: 1.5rem;
+        }
 
-    
     /* logo adjusting for web and ipad */
     .logo-center{
     text-align: left;
