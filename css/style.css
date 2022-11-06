@@ -376,11 +376,48 @@ display: block;
 /************* END OF MOBILE STYLES ****************/
 
 /************ IPAD STYLES ***************/
-@media only screen and (min-width:768px){
-    nav ul li{display: flex;
+@media only screen and (min-width: 768px){
+    
+    /* NAV STYLE */
+    nav {display: flex;
+        justify-content: center;
         flex-direction: row;
     }
 
+    /* IMAGE STYLE */
+    .girl{
+        display: flex;
+        justify-content: center;
+    }
+    .girl-img{
+        width: 50%;
+    }
+    .hero-text{
+        margin: 0 3rem;
+    }
+    h1{
+        margin: 3rem;
+    }
+    .kids{
+        display: flex;
+
+    }
+
+    .kids-img{
+        
+    }
+    .simon{
+        display: flex;
+    }
+    .simon-img{
+        max-width: 100%;
+    }
+    .simon-p{
+        font-size: large;
+        line-height: 2;
+    }
+    /* Text styles */
+    h2 h3
     /* logo adjusting for web and ipad */
     .logo-center{
     text-align: left;
