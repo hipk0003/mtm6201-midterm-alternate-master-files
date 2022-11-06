@@ -37,6 +37,24 @@ text-align: left;
 margin-left: 1rem;
 }
 /* p will be styled the same for all three pages */
+.fa-solid{
+    font-size: 2rem;
+}
+.home-icons{
+    display: flex;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-icon-text{
+    margin-left: 0;
+}
 .started{
 background-color: #26A682;
 color: white;
@@ -63,9 +81,9 @@ height: auto;
 margin-top: 1rem;
 /* Height auto to allow image to be responsive */
 }
-#kids{
+.kids{
 width: 100%;
-height: auto;
+max-height: 4px ;
 margin-top: 1rem;
 }
 h2{
@@ -85,7 +103,7 @@ margin-left: 1rem;
 .kids-img{
 text-align: center;
 }
-#kids-img{
+.kids-img{
 width: 100%;
 height: auto;
 margin-top: 1rem;
@@ -278,10 +296,30 @@ input{
     text-align: center;
 }
 /* OUR LOCATION  */
+
+/* GRID TEST 
 .location-list{
     text-align: left;
 }
 
+.grid-con1{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows:10% 40% 40% 10%;
+    grid-template-areas: 
+    "padding1" "padding1" "padding1" "padding1"
+    "padding1" "image" "text" "padding1"
+    "padding1" "image" "text" "padding1"
+    "padding1" "padding1" "padding1" "padding1"
+    ;
+}
+.break-img{
+    grid-area:image;
+}
+.col1{
+    grid-area: text;
+}
+*/
 @media only screen and (min-width:768px){
 /* nav is now being styled for horizontal appearance */
 ul li{

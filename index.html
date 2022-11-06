@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4ee54b1a4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Home Page</title>
   </head>
   <body>
@@ -26,23 +30,46 @@
       </nav>
     </header>
     <div class="home-wrapper">
-      <h1>Discover Your ARC.</h1>
-      <p>
-        With Algonquin College's newest facility, there's always something for
-        everyone to discover and enjoy!
-      </p>
-      <!-- SKipping icons for now -->
-      <i class="fas fa-bowling-ball"></i>
-      <div id="started">
-        <input type="submit" value="Get Started" class="started" />
+      <div class="home-text">
+        <h1>Discover Your ARC.</h1>
+        <p>
+          With Algonquin College's newest facility, there's always something for
+          everyone to discover and enjoy!
+        </p>
+        <!-- SKipping icons for now -->
+        <div class="home-icons">
+          <div class="home-icon">
+            <i class="fa-solid fa-bowling-ball"></i>
+            <p class="home-icon-text">Bowling</p>
+          </div>
+          <div class="home-icon">
+            <i class="fa-solid fa-person-hiking"></i>
+            <p class="home-icon-text">Rock Climbing</p>
+          </div>
+          <div class="home-icon">
+            <i class="fa-solid fa-basketball"></i>
+            <p class="home-icon-text">Indoor Court</p>
+          </div>
+          <div class="home-icon">
+            <i class="fa-solid fa-dumbbell"></i>
+            <p class="home-icon-text">Fitness Center</p>
+          </div>
+        </div>
+        <div id="started">
+          <input type="submit" value="Get Started" class="started" />
+        </div>
       </div>
       <div class="girl">
-        <img src="images/discover.svg" alt="girl reading" id="girl" />
+        <img src="images/discover.svg" alt="girl reading" class="girl-img" />
       </div>
       <!-- Div is needed around images so that it can be cetnered with "text align", text-align only targets text -->
       <section class="kids-container">
         <div class="kids">
-          <img src="images/school.jpg" alt="kids throwing hats" id="kids" />
+          <img
+            src="images/school.jpg"
+            alt="kids throwing hats"
+            class="kids-img"
+          />
         </div>
         <h2>Discover</h2>
         <h3>Algonquin College</h3>
@@ -53,11 +80,11 @@
           Western Quebec, and Upstate New York.
         </p>
       </section>
-      <div id="learn-more">
+      <div class="learn">
         <input type="submit" value="Learn More" class="learn-more" />
       </div>
-      <div id="simon">
-        <img src="images/simon.jpg" alt="simon" class="simon-jpg" />
+      <div class="simon">
+        <img src="images/simon.jpg" alt="simon" class="simon-img" />
         <h2 class="simon">Dijanelle Simon SA President</h2>
         <p class="simon-p">
           "Only with increased capacity can we expand and create a more
@@ -68,7 +95,7 @@
         </p>
       </div>
       <div class="beers">
-        <img src="images/entertainment.jpg" alt="beers" id="beers" />
+        <img src="images/entertainment.jpg" alt="beers" class="beers-img" />
       </div>
       <!-- Div is needed around the image so that text-align center will center the image -->
       <h2>Discover</h2>
@@ -80,7 +107,7 @@
         to study, but it will also be bringing in more room for late-night
         entertainment.
       </p>
-      <div id="learn-more2">
+      <div class="learn">
         <input type="submit" value="Learn More" class="learn-more" />
       </div>
     </div>
