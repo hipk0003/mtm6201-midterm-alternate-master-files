@@ -393,11 +393,27 @@ display: block;
         width: 50%;
     }
     .hero-text{
+        font-size: 2rem;
         margin: 0 3rem;
     }
+    /* APPLYING MARGINS TO H2 H3 P */
     h1{
+        font-size: 3rem;
         margin: 3rem;
     }
+    h2{
+        font-size: 3rem;
+        margin: 3rem;
+    }
+    h3{
+        font-size: 3rem;
+        margin: 3rem;
+    }
+    .p-description{
+        font-size: 25px;
+        margin: 0 3rem;
+    }
+    /* APPLYING MARGINS TO H2 H3 P */
     .kids{
         display: flex;
 
@@ -406,18 +422,51 @@ display: block;
     .kids-img{
         
     }
+    .simon-header{
+        font-size: 2rem;
+    }
     .simon{
         display: flex;
     }
+    .simon div{
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
     .simon-img{
         max-width: 100%;
+
     }
     .simon-p{
-        font-size: large;
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.5rem;
         line-height: 2;
     }
-    /* Text styles */
-    h2 h3
+    /* Styling button */
+    .learn-more{
+        background-color: #26A682;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        padding: 0.5rem 2rem;
+        border-radius: 40px;
+        font-size: 3rem;
+        font-weight: bold;
+        box-shadow: 2px 2px 10px grey;
+        border: #26A682;
+        margin-right: 1rem;
+        }
+
+        /* FOOTER */
+        .footer-social{
+            justify-content: center;
+        }
+
+
+
+    /************************ About page ******************************/
+
+    
     /* logo adjusting for web and ipad */
     .logo-center{
     text-align: left;
