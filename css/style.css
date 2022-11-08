@@ -388,6 +388,9 @@ display: block;
         padding-left: 4rem;
         padding-right: 4rem;
     }
+    li a{
+        font-size: 2rem;
+    }
 
     /* IMAGE STYLE */
     .girl{
@@ -510,12 +513,35 @@ display: block;
     .break-img div{
         width: 100%;
     }
-   
-    
+   .special-thanks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .student-ass .pcl-img .cibc-img{
+    max-width: 50%;
+   }
+    /********************** CONTACT PAGE *************************/
 
+    .contact-form{
+        padding: 1rem 4rem;
+    }
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 4rem;
+    }
+    .location-wrapper{
+        padding: 1rem 4rem;
+    }
+    .iframe{
+        max-width: 100%;
+    }
 }
 @media only screen and (min-width:992px){
-    .kids{
-        
-    }
+    /******************* DESKTOP STYLES START NOW ********************/
+    .hero
+
 }
