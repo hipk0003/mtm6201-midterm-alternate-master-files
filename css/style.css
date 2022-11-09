@@ -148,7 +148,7 @@ padding: 1rem 0;
 color: white;
 margin: 0 1rem;
 }
-.beers{
+.beers-container {
 text-align: center;
 }
 
@@ -513,6 +513,19 @@ display: block;
     .break-img div{
         width: 100%;
     }
+
+    .kids-header, .beers-header {
+        background-image: url("../images/school.jpg");
+        background-repeat: no-repeat;
+        height: 200px;
+        background-size: cover;
+        background-position-y: center;
+    }
+
+    .beers-header {
+        background-image: url("../images/entertainment.jpg");
+    }
+
    .special-thanks{
     display: flex;
     flex-direction: column;
@@ -521,8 +534,13 @@ display: block;
    .student-ass .pcl-img .cibc-img{
     max-width: 50%;
    }
+   .about-text, .service-text {
+    margin: 0;
+}
     /********************** CONTACT PAGE *************************/
-
+    .form{
+        margin: 0;
+    }
     .contact-form{
         padding: 1rem 4rem;
     }
@@ -536,12 +554,132 @@ display: block;
     .location-wrapper{
         padding: 1rem 4rem;
     }
+    .map{
+        display: flex;
+        justify-content: center ;
+    }
+    .mapframe{
+        width: 100%;
+    }
     .iframe{
         max-width: 100%;
     }
 }
-@media only screen and (min-width:992px){
+@media only screen and (min-width:960px){
     /******************* DESKTOP STYLES START NOW ********************/
-    .hero
+    
+    .hero-header {
+        display: flex;
+        margin-bottom: 2rem;
+    }
 
+    .girl-img {
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: 0;
+    }
+
+    .hero-content {
+       align-items: flex-start;
+    }
+
+    .hero-text {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    .started-button {
+        width: 100%;
+    }
+
+    .p-description, .simon-p {
+        font-size: 1rem;
+    }
+
+    .kids {
+        padding: 2rem;
+    }
+    .kids-container {
+        display: flex;
+    }
+
+    .kids-header {
+        display: none;
+    }
+
+    .simon-content {
+        display: flex;
+        align-items: center;
+    }
+    
+    .simon div {
+        padding-top: 0;
+    }
+
+    .beers-header {
+        display: none;
+    }
+
+    .beers-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .beers {
+        padding: 2rem;
+    }
+
+    .about-hero {
+        display: flex;
+    }
+
+    .about-content {
+        flex-basis: 50%;
+    }
+
+    .hero-text-p {
+        font-size: 1.5rem;
+    }
+
+    .about-text, .service-text {
+        margin: 0;
+    }
+
+    .about-description {
+        display: flex;
+    }
+
+    .subscribe p, button {
+        display: inline-block;
+    }
+
+
+    .special-thanks-logos {
+        display: flex;
+        align-items: center;
+    }
+
+    .special-thanks-logos div {
+        flex-basis: 25%;
+    }
+
+    .location {
+        display: flex;
+    }
+
+    .location div {
+        flex-basis: 50%;
+    }
+    .contact-header{
+        display: flex;
+        align-items: flex-end;
+    }
+    .hero-text2{
+        font-size: 1rem;
+    }
+    .contact-img{
+        width: 75%;
+    }
 }
