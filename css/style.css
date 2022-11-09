@@ -14,6 +14,16 @@ margin-top: 0.5rem;
 margin-left: -2rem;
 /* negative for margin left to center the nav */
 }
+
+/* SKIP LINK */
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
 li a{
 color: white;
 font-family: 'Raleway', sans-serif;
