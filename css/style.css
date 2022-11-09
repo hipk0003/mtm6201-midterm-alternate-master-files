@@ -695,4 +695,7 @@ display: block;
     .contact-img{
         width: 75%;
     }
+    .about-content h1{
+        margin-left: 2rem;
+    }
 }
