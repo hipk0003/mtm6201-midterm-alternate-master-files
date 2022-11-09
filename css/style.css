@@ -705,4 +705,11 @@ display: block;
     .about-content h1{
         margin-left: 2rem;
     }
+    .special-thanks div{
+        display: flex;
+        flex-direction: row;
+       }
+       .special-thanks h1{
+        text-align: center;
+       }
 }
