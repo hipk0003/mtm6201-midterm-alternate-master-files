@@ -459,6 +459,7 @@ display: block;
     }
     .simon{
         display: flex;
+        margin-top: 1rem;
     }
     .simon div{
         padding-left: 2rem;
